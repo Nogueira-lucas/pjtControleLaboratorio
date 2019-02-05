@@ -24,3 +24,7 @@
 ## Possivel solução:
 - S1:  Construir um sistema digitalizado capaz de gravar o ESTADO DO LABORATÓRIO e salvar HISTÓRICO DE COMPUTADORES e suas soluções respeitando as regra RN03;
 - S2: Salvar o processo de manutenção periódica;
+## REGRAS DE NEGÓCIO:
+- RN01: Todo e qualquer patrimônio deve ser gravado no sistema com o seu respectivo codinome de dois caracteres e 		código em seguida (Ex.: PC 22, HD 21, ME 54);
+- RN02: Existem somente essas categorias de peças sobressalentes, Memória Ram, Discos Rigidos, Teclados, 		Mouses, 	Cabos Flat e Monitores;
+	RN03: Historico de manutenção periódica deve conter data e responsável;
