@@ -1,2 +1,2 @@
 # pjtControleLaboratorio
-##Sistema de controle contábil de computadores e peças
+## Sistema de controle contábil de computadores e peças
