@@ -1,0 +1,16 @@
+PROBLEMA:
+P1: Falta de controle contábil e preditivo dos computadores;
+P2: Não sabemos quando e quem foi o responsável pela manutenção ou instalação;
+__________________________________________________________________________________
+
+Afeta quem:
+	P1: Monitor de informática do laboratório; Coordenação; Alunos;
+	P2: Monitor de informática;
+
+Impacto:
+	P1: Falta de computadores para os alunos utilizarem; 
+	P2: Manutenção tardia e complexa;
+
+Possivel solução:
+	S1:  Construir um sistema digitalizado capaz de gravar o ESTADO DO LABORATÓRIO e salvar HISTÓRICO DE COMPUTADORES e suas soluções respeitando as regra RN03;
+	S2: Salvar o processo de manutenção periódica;

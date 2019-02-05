@@ -1,0 +1,4 @@
+REGRAS DE NEGÓCIO:>
+	RN01: Todo e qualquer patrimônio deve ser gravado no sistema com o seu respectivo codinome de dois caracteres e 		código em seguida (Ex.: PC 22, HD 21, ME 54);
+	RN02: Existem somente essas categorias de peças sobressalentes, Memória Ram, Discos Rigidos, Teclados, 		Mouses, 	Cabos Flat e Monitores;
+	RN03: Historico de manutenção periódica deve conter data e responsável;
