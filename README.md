@@ -45,6 +45,9 @@ Um laboratório de informatica precisa registrar computadores em funcionamento e
 	- Usar somente planilhas de excel como estoque de dados;
 
 ## Stakeholders 
+- Monitores de Informática
 ![Monitores de informática](http://pbs.twimg.com/media/B2nalXNIAAAWXTs.png)
+- Coordenação
 ![Coordenação](https://vignette.wikia.nocookie.net/wikiesponja/images/2/2d/Sr_Sirigueijo_de_Bob_Esponja.png/revision/latest?cb=20170325000158&path-prefix=pt-br)
+- Alunos
 ![Alunos](http://memoriaglobo.globo.com/data/files/0D/D4/C7/5F/E7BED31052249ED3494B07A8/globo__Escolinha%20001%20Leonardo%20Aversa__gallefull.jpg)
