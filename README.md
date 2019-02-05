@@ -29,3 +29,17 @@
 - RN01: Todo e qualquer patrimônio deve ser gravado no sistema com o seu respectivo codinome de dois caracteres e 		código em seguida (Ex.: PC 22, HD 21, ME 54);
 - RN02: Existem somente essas categorias de peças sobressalentes, Memória Ram, Discos Rigidos, Teclados, Mouses, Cabos Flat e Monitores;
 - RN03: Historico de manutenção periódica deve conter data e responsável;
+
+# Nescessidade:
+Um laboratório de informatica precisa registrar computadores em funcionamento e computadores em desuso e registrar peças sobressalentes restantes para aproveitamento futuro. Também deve fornecer suporte a depreciação e manutenção preventiva.
+
+## Requisitos Funcionais:
+	- Gerir Computadores em funcionamento;
+	- Gerir Computadores em desuso;
+	- Gerir Peças Sobressalentes;
+	- Gerar relatório contábil geral do laboratorio;
+	- Gerir histórico de manutenção periódica;
+
+## Requisitos Não-Funcionais:
+	- Rodar em aparelhos mobile e pc;
+	- Usar somente planilhas de excel como estoque de dados;
