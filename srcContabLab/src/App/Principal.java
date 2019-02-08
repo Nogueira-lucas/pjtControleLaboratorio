@@ -5,6 +5,12 @@
  */
 package App;
 
+import DAO.PCDAO;
+import dominio.EEstado;
+import dominio.EFileira;
+import dominio.EFonte;
+import dominio.PC;
+
 /**
  *
  * @author lucas
@@ -15,7 +21,12 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        PC pc = new PC(null, "Gigabyte", "DDR1 2gb", "Intel Atom", EFonte.ATX, EFileira.FILEIRA_1, EEstado.ATIVADO);
+        PCDAO dao = new PCDAO();
+        
+        dao.salvar(pc);
+        
     }
     
 }

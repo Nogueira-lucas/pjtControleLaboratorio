@@ -5,20 +5,19 @@
  */
 package dominio;
 
-import javax.annotation.Generated;
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import org.hibernate.boot.registry.selector.spi.StrategySelector;
 
 /**
  *
  * @author lucas
  */
 @Entity
-public class PC {
+public class PC implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer numero;
@@ -34,6 +33,22 @@ public class PC {
     private EFileira fileira;
     @Column
     private EEstado estado;
+
+    public PC() {
+    
+    }
+    
+    public PC(Integer numero, String placamae, String memoria, String cpu, EFonte fonte, EFileira fileira, EEstado estado) {
+        this.numero = numero;
+        this.placamae = placamae;
+        this.memoria = memoria;
+        this.cpu = cpu;
+        this.fonte = fonte;
+        this.fileira = fileira;
+        this.estado = estado;
+    }
+    
+    
     
     public EFileira getFileira() {
         return fileira;

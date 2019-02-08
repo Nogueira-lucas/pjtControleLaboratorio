@@ -5,6 +5,7 @@
  */
 package DAO;
 
+import dominio.PC;
 import java.util.ArrayList;
 
 /**
@@ -13,8 +14,8 @@ import java.util.ArrayList;
  */
 public interface IDAO {
     
-    public void salvar();
-    public void alterar();
-    public void excluir();
-    public ArrayList listar();
+    public Object salvar(Object o);
+    public void alterar(Object o);
+    public void excluir(Object o);
+    public ArrayList<Object> listar();
 }
