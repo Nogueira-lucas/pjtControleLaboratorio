@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DAO;
+package br.com.dao;
 
-import dominio.PC;
+import br.com.dominio.PC;
+import br.com.modelos.IDAO;
 import java.util.ArrayList;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -16,8 +17,8 @@ import javax.persistence.Persistence;
  * @author lucas
  */
 public class PCDAO implements IDAO{
-    public EntityManagerFactory emf;
-    public EntityManager em;
+    public static EntityManagerFactory emf;
+    public static EntityManager em;
     
     public PCDAO() {
         emf = Persistence.createEntityManagerFactory("srcContabLabPU");
@@ -25,17 +26,19 @@ public class PCDAO implements IDAO{
     }
 
     @Override
-    public Object salvar(Object o) {
+    public boolean salvar(PC o) {
         try{
             em.getTransaction().begin();
             em.persist(o);
             em.getTransaction().commit();
+            return true;
         }catch(Exception e){
             em.getTransaction().rollback();
+            return false;
         }finally{
             em.close();
         }
-        return o;
+        
     }
 
     @Override

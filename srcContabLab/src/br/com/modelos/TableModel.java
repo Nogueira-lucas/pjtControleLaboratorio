@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dominio;
+package br.com.modelos;
 
 /**
  *
  * @author lucas
  */
-public enum EEstado {
-    ATIVADO, DESATIVADO;
+public abstract class TableModel{
+    
 }

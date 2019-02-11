@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package App;
+package br.com.app;
 
-import DAO.PCDAO;
-import dominio.EEstado;
-import dominio.EFileira;
-import dominio.EFonte;
-import dominio.PC;
+import br.com.dao.PCDAO;
+import br.com.dominio.EEstado;
+import br.com.dominio.EFileira;
+import br.com.dominio.EFonte;
+import br.com.dominio.PC;
 
 /**
  *
@@ -21,12 +21,9 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        PC pc = new PC(null, "Gigabyte", "DDR1 2gb", "Intel Atom", EFonte.ATX, EFileira.FILEIRA_1, EEstado.ATIVADO);
+        PC pc = new PC(null, "Gigabyte", "DDR1 2GB", "Intel Atom", EFonte.ATX, EFileira.FILEIRA_1, EEstado.ATIVADO);
         PCDAO dao = new PCDAO();
-        
         dao.salvar(pc);
-        
     }
     
 }

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DAO;
+package br.com.modelos;
 
-import dominio.PC;
+import br.com.dominio.PC;
 import java.util.ArrayList;
 
 /**
@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public interface IDAO {
     
-    public Object salvar(Object o);
+    public boolean salvar(PC o) ;
     public void alterar(Object o);
     public void excluir(Object o);
     public ArrayList<Object> listar();

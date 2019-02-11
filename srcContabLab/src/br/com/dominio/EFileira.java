@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dominio;
+package br.com.dominio;
 
 /**
  *
  * @author lucas
  */
-public enum EFonte {
-    ATX, BTX;
+public enum EFileira {
+    
+    FILEIRA_1, FILEIRA_2, FILEIRA_3;
 }
