@@ -30,7 +30,7 @@
 - RN02: Existem somente essas categorias de peças sobressalentes, Memória Ram, Discos Rigidos, Teclados, Mouses, Cabos Flat e Monitores;
 - RN03: Historico de manutenção periódica deve conter data e responsável;
 
-# Nescessidade:
+# Necessidade:
 Um laboratório de informatica precisa registrar computadores em funcionamento e computadores em desuso e registrar peças sobressalentes restantes para aproveitamento futuro. Também deve fornecer suporte a depreciação e manutenção preventiva.
 
 ## Requisitos Funcionais:
